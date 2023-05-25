@@ -1,28 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <body align= center background="/img/borboleta.jpg"> 
-        <div class = "cabecalho">
-            <h1>Júlia Barros</h1>
-            </div>
-    <div class = "corpo">
-        <h2><a href="sobremim.html">Sobre mim</a></h2> 
-    </div>
-
-    <div class = "body">
-        <h3><a href="trabalhos.html">Alguns Trabalhos</a></h3>
-    </div>
-<div class = "corpo2">
-
-            <h4>LinkedIn:</h4>
-          <footer><a href="https://www.linkedin.com/in/j%C3%BAlia-gon%C3%A7ales-21238526b/">
-            <img width="5%" heigth="10%" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a> </footer>
+<body style="background-color: rgb(205, 168, 240);">
+    <link rel="stylesheet" href="estilos.css">
+    <div class="cabecalho">
+        <h1>Serviços de rede</h1>
+        <h2>DNS, DHCP, FTP, HTTP E WEBSERVER</h2>
         </div>
+        
+<main>
+    <nav>
+        <ul>
+        <li><a href="#osi">Modelo OSI</a></li>
+        <li><a href="#tcpip">Modelo TCP/IP</a></li>
+        <li><a href="#udp">UDP</a></li>
+        <li><a href="#dns">DNS</a></li>
+        <li><a href="#dhcp">DHCP</a></li>
+        <li><a href="#ftp">FTP</a></li>
+        <li><a href="#httpehttps">HTTP/HTTPS</a></li>
+        <li><a href="#webserver">WEBSERVER</a></li>
+        </ul>
+        </nav>
+
+<section id="osi">        
+<div class="corpo">
+
+    <h3>Modelo OSI</h3>    
+    
+    <img align=center height=250 border="4" width="300" src="imagens/modeloosi2.png">
+        
+     <p>OSI (Open Systems Interconnection), é um modelo que define 7 (sete) camadas para que sistemas de computadores possam usar para se comunicar com uma rede. O OSI é o primeiro modelo padrão de comunicação entre sistemas de computadores e redes. Seriam elas: Camada física, Camada de enlace de dados, Camada de rede, Camada de transporte, Camada de sessão, Camada de apresentação e Camada de aplicação.</p>
+      
+</div>
+</section>
+
+<section id="tcpip">
+    <div class="corpo2"> 
+     <h3>Modelo TCP/IP</h3>
+            
+     <p>Com objetivo semelhante ao do modelo OSI no que diz respeito à divisão da arquitetura em camadas, o TCP/IP consiste na junção dos protocolos TCP (Transmission Control Protocol) e o IP (Internet Protocol), dois dos mais utilizados. Apresenta 4 (quatro) camadas: Acesso a rede, Internet, Transporte e Aplicação. O TCP/IP é fundamental para a rede de internet. Esses dois protocolos garantem que pacotes de informações cheguem a seu destino de forma correta e segura. Dessa forma, conseguimos tratar e definir os dados entre os dispositivos antes de alcançarem seus destinos.</p>
+     
+ </div>
+</section>
+     
+<section id="udp"></section>
+ <div class="corpo3">
+    <h3>UDP</h3>
+    <p>O UDP é um método padronizado de transferência de dados entre dois computadores de uma rede. Em comparação com outros protocolos, o UDP realiza este processo de forma simples: envia pacotes (unidades de transmissão de dados) diretamente para um computador de destino, sem estabelecer uma conexão antes, indicando a ordem desses pacotes ou verificando se eles chegaram como previsto. (Os pacotes UDP são denominados "datagramas"). O UDP é mais rápido, mas menos confiável que o TCP. Em uma comunicação TCP, os dois computadores começam estabelecendo uma conexão por meio de um processo automatizado chamado "handshake". Somente depois que esse handshake for concluído, um computador realmente transferirá pacotes de dados para o outro. As comunicações UDP não passam por esse processo. Em vez disso, um computador pode simplesmente começar a enviar dados para o outro.</p>
+</div>
+</section> 
+
+<section id="dns">
+<div class="corpo4">
+    <h3>DNS</h3>
+
+        
+     <p>DNS (em inglês, Domain Name System), trata-se do Sistema de Nomes de Domínio. Há quem o defina como uma lista telefônica de toda a internet. É  um banco de dados utilizado na internet com o objetivo de traduzir endereços IP (Internet Protocol), em nomes de sites. É o DNS que permite que você digite o nome de um domínio na barra de endereços, em vez de uma longa sequência de números difícil de decorar. Essa tradução do nome de domínio para o IP acontece em uma fração de segundos.</p>
+ </div>
+</section>
+
+<section id="dhcp">
+ <div class="corpo5">
+<h3>DHCP</h3>
+<p>Do inglês Dynamic Host Configuration Protocol (Protocolo de Configuração Dinâmica de Endereços de Rede), é um protocolo utilizado em redes de computadores que permite às máquinas obterem um endereço IP automaticamente. Por meio dele um servidor é capaz de distribuir automaticamente endereços de IP diferentes a todos os computadores à medida que eles fazem a solicitação de conexão com a rede. Essa distribuição dos IPs é feita em um intervalo pré-definido configurado no servidor. Sempre que uma das máquinas for desconectada o IP ficará livre para o uso em outra.</p>
+ </div>
+</section>
+
+<section id="ftp">
+ <div class="corpo6">
+    <h3>FTP</h3>
+    <p>A sigla FTP significa File Transfer Protocol ou Protocolo de Transferência de Arquivos. Esse protocolo é uma forma de comunicação entre computadores que usam o TCP/IP, que é o protocolo padrão de comunicação da web. O protocolo FTP permite que usuários autorizados possam fazer download e upload de arquivos de um servidor FTP, um computador que armazena os dados. Dessa forma, o FTP facilita a transferência de informações entre diferentes dispositivos.</p>
+ </div>
+</section>
+
+<section id="httpehttps">
+ <div class="corpo7">
+    <h3>HTTP/HTTPS</h3>
+    <p>A sigla HTTPS vem de “Hyper Text Transfer Protocol Secure”, em portugues “Protocolo de Transferência de Hipertexto Seguro”. Trata-se de uma camada adicional de segurança (SSL/TLS), sob o protocolo HTTP. Deixando o tecniquês de lado, o protocolo HTTPS é a língua que um servidor vai utilizar para se comunicar com seu usuário, e seu diferencial é que com a adição do SSL “Secure Sockets Layer” (camada de soquete seguro) essa “língua” torna-se criptografada. Então, quando o usuário digita seu nome em um formulário, por exemplo, durante todo o percurso, desde seu navegador até o servidor, esta informação não é “legível” por nada que possa haver no caminho, impedindo furto de dados e ataques de hackers. Em poucas palavras e sem muitos rodeios, o HTTP é praticamente o mesmo protocolo HTTPS mas sem o “S” de “Secure”, ou seja, o Protocolo HTTP é inseguro.</p>
+ </div>
+</section>
+
+<section id="webserver">
+ <div class="corpo8">
+    <h3>WEBSERVER</h3>
+    <img align=center height=250 border="4" width="300" src="imagens/WebServer.jpg">
+    <p>Um web server é um sistema computacional que hospeda e fornece acesso aos conteúdos e aplicações através da internet. Em um servidor web, o servidor HTTP é responsável por processar e responder as requisições recebidas. Ao receber uma requisição, um servidor HTTP primeiramente confirma se a URL requisitada corresponde ao arquivo existente. Se confirmar, o servidor web envia o conteúdo do arquivo de volta ao navegador. Atualmente os servidores web mais utilizados são APACHE e NGINX.</p>
+ </div>
+</section>
+
 </body>
 </html>
