@@ -110,6 +110,13 @@ a:hover {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.body9{
+    background: #77c5e1;
+    text-align: center;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 a:link {
     color: green;
     background-color: transparent;
