@@ -1,20 +1,18 @@
 .cabecalho{
-    background: white;
+    background: #ff43a4;
     text-align: center;
     font-family: Heattenschweiler; 'Arial Narrow Bold';
     font-size: large;
 }
 
 .corpo{
-    background: white;
     text-align:center;
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .corpo2{
-    background: white;
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -34,111 +32,40 @@ a:hover {
 }
 
 .corpo4{
-    background: #cc7eeb;
+    background: #ff43a4;
     text-align: center;
     font-size: medium;
     font-family:Verdana, Geneva, Tahoma, sans-serif,
 }
 
 .corpo5{
-    background: #cc7eeb;
+    background: #ff43a4;
     text-align: center;
     font-size: medium;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .body{
-    background: white;
     text-align: center;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .body1{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body2{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body3{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-    
-.body4{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body5{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body6{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body7{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body8{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body9{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body10{
-    background: #77c5e1;
-    text-align: center;
-    font-size: medium;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.body11{
-    background: #77c5e1;
+    background: #ff43a4;
     text-align: center;
     font-size: medium;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 a:link {
-    color: green;
+    color: #ff43a4;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: pink;
+    color: #ff43a4;
     background-color: transparent;
     text-decoration: none;
   }
@@ -150,7 +77,7 @@ a:link {
   }
   
   a:active {
-    color: yellow;
+    color: #ff43a4;
     background-color: transparent;
     text-decoration: underline;
   }
