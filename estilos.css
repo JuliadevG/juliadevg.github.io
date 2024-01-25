@@ -51,6 +51,12 @@ a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.body2{
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .body1{
     background: #ff43a4;
     text-align: center;
